@@ -41,7 +41,8 @@ body {
 1. 要电脑的<br/>
 电脑还是有的就不po出来了
 2. 然后准备一个learn-stylus的文件夹<br/>
-准备一个learn-stylus的文件夹，并在其中准好lock.html和lock.styl的文件
+准备一个learn-stylus的文件夹，并在其中准好lock.html和lock.styl的文件<br/>
+![](http://upload-images.jianshu.io/upload_images/4021219-85bba032a82a12ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
 3. 要安装好nodejs的<br/>
 <pre>
 $ npm install stylus
@@ -57,12 +58,14 @@ npm WARN learn-stylus No license field.
 added 20 packages in 27.45s
 </pre>
 神奇的产生了下面的效果,会多出两个文件<br/>
+![](http://upload-images.jianshu.io/upload_images/4021219-3e328ed9393385af.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
 4. 生成css文件<br/>
 <pre>
 stylus lock.styl -o lock.css
 compiled lock.css
 </pre>
 你的文件夹又会多一个lock.css的文件<br/>
+![](http://upload-images.jianshu.io/upload_images/4021219-04354f5af15fff64.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)<br/>
 准备完成，接下来就是撸代码了。
 
 ###撸代码
@@ -247,8 +250,8 @@ $background_image = 'https://images.unsplash.com/photo-1440613905118-99b921706b5
   font-size: 0.444444rem;
 }
 ```
-大功告成，得到效果图如下
-
+大功告成，得到效果图如下<br/>
+![](http://upload-images.jianshu.io/upload_images/4021219-d47964f06bcd5f27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ### 最后说一下stylus的好处
 1. 复用性高，这是每一个份代码需要的
 2. 更好修改
